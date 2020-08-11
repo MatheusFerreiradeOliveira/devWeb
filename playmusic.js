@@ -18,6 +18,14 @@ function play(){
 		console.log(m);
 		player.tocar(m);
 	}
+	console.log("fim");
+}
+function pause(){
+	//sistem.pause();
+}
+
+function continueMusic(){
+	//sistem.continueMusic();
 }
 
 play();
