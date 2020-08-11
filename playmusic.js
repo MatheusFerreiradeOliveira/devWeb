@@ -5,5 +5,8 @@ function play(){
 		console.log(m);
 	console.log("fim");
 }
+function pause(){
+	//sistem.pause();
+}
 
 play();
