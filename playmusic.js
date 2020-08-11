@@ -9,4 +9,8 @@ function pause(){
 	//sistem.pause();
 }
 
+function continueMusic(){
+	//sistem.continueMusic();
+}
+
 play();
