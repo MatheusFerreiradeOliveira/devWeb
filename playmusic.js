@@ -1,8 +1,16 @@
 var music=["song01", "song02", "song03", "song04"];
-var player;
 
 function iniciar(m){
 	player.iniciar(m);
+}
+
+var player = {
+	name: '',
+	age: '',
+	tocar(str) {
+		return console.log(`Tocando ${str}`)
+	}
+
 }
 
 function play(){
