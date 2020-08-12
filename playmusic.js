@@ -14,7 +14,7 @@ function pause(){
 }
 
 function continueMusic() {
-  console.log("Continuar musica")
+  console.log("Continuar musica!")
 }
 
 play();
