@@ -22,11 +22,11 @@ function play() {
 
 function pause() {
   //sistem.pause();
-  console.log("teste");
+  console.log("Pausar musica");
 }
 
 function continueMusic() {
-  //sistem.continueMusic();
+  console.log("Continuar musica")
 }
 
 play();
