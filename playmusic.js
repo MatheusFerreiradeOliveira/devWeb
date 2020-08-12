@@ -27,6 +27,7 @@ function pause() {
 
 function continueMusic() {
   //sistem.continueMusic();
+  console.log("teste");
 }
 
 play();
