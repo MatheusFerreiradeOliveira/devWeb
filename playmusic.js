@@ -1,33 +1,20 @@
 var music = ["song01", "song02", "song03", "song04"];
 
-function iniciar(m) {
-  player.iniciar(m);
+function play(){
+	music.forEach(m => {
+		if(m == "song03") {
+			pause();
+		}
+		console.log(m)
+	});
+	console.log("fim");
 }
-
-var player = {
-  name: "",
-  age: "",
-  tocar(str) {
-    return console.log(`Tocando ${str}`);
-  },
-};
-
-function play() {
-  for (m in music) {
-    console.log(m);
-    player.tocar(m);
-  }
-  console.log("fim");
-}
-
-function pause() {
-  //sistem.pause();
-  console.log("teste");
+function pause(){
+	console.log("Pausado, nao gosto dessa musica")
 }
 
 function continueMusic() {
-  //sistem.continueMusic();
-  console.log("teste");
+  console.log("Continuar musica!")
 }
 
 play();
