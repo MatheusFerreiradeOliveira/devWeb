@@ -32,6 +32,7 @@
 
 ##### faz merge da branch:
 
+- (vai pra branch que deseja permanecer)
 - git merge <nome-da-branch>
 
 ##### remove do add:
