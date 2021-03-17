@@ -15,4 +15,9 @@ git fetch
 git pull
 git push
 
-deleta a branch: git brach -d nome-da-branch
+-navega na branch:
+git checkout master
+-deleta a branch:
+git brach -d nome-da-branch
+-faz merge da branch:
+git merge nome-da-branch
