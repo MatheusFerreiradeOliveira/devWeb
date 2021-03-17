@@ -4,7 +4,13 @@
 
 - git init
 - git remote add origin <url>
+
+##### faz push de uma nova branch
+
 - git push --set-upstream origin master
+
+##### faz push de uma branch especifica
+
 - git push -u origin master
 
 ### comandos
