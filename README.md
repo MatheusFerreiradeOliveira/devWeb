@@ -11,7 +11,7 @@
 
 ##### faz push de uma branch especifica
 
-- git push -u origin master
+- git push -u origin <master>
 
 ### comandos
 
@@ -23,12 +23,25 @@
 
 ##### navega na branch:
 
-- git checkout master
+- git checkout <master>
 
 ##### deleta a branch:
 
-- git brach -d nome-da-branch
+- git brach -d <nome-da-branch>
+- git push origin --delete <nome-da-branch>
 
 ##### faz merge da branch:
 
-- git merge nome-da-branch
+- git merge <nome-da-branch>
+
+##### remove do add:
+
+- git reset
+
+##### remove o ultimo commit:
+
+- git reset --soft HEAD^
+
+##### retira as mudanças:
+
+- git checkout nome-do-arquivo
