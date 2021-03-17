@@ -35,6 +35,10 @@
 - (vai pra branch que deseja permanecer)
 - git merge <nome-da-branch>
 
+##### Baixar objetos e referências de outro repositório
+
+- git fetch --all
+
 ##### remove do add:
 
 - git reset
@@ -46,3 +50,9 @@
 ##### retira as mudanças:
 
 - git checkout nome-do-arquivo
+
+##### versionamento
+
+- git tag -a v1.0 -m "my version 1.0"
+- git tag
+- git show v1.0(aperta _q_ pra sair)
