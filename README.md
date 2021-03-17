@@ -37,6 +37,7 @@
 
 ##### Baixar objetos e referências de outro repositório
 
+- (ele baixa as alterações mas não atualiza o seus arquivos ainda(com o merge))
 - git fetch --all
 
 ##### remove do add:
